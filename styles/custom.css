@@ -1,0 +1,26 @@
+.exo-field.stress-field,
+.exo-field.corruption-field {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    gap: 5px;
+    align-items: center;
+    margin: 5px 0;
+}
+.exo-field label {
+    font-family: Sriracha, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+.exo-field input {
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #7a7971;
+    border-radius: 2px;
+    font-family: Sriracha, sans-serif;
+}
+.resistance-info {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}

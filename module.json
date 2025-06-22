@@ -1,0 +1,35 @@
+{
+  "id": "mm3e-regras-exo",
+  "title": "M&M 3e - Regras EXO (Estresse e Corrupção)",
+  "description": "Adiciona os contadores de Estresse e Corrupção e as penalidades passivas associadas. Requer libWrapper.",
+  "version": "10.0.0",
+  "authors": [
+    {
+      "name": "Seu Nome (com ajuda da IA)"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mutants-and-masterminds-3e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  },
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "styles": [],
+  "languages": []
+}
